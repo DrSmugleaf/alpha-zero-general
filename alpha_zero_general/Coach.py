@@ -8,9 +8,9 @@ from random import shuffle
 import numpy as np
 from progress.bar import Bar
 
-from Arena import Arena
-from MCTS import MCTS
-from pytorch_classification.utils import AverageMeter
+from alpha_zero_general.Arena import Arena
+from alpha_zero_general.MCTS import MCTS
+from alpha_zero_general.pytorch_classification.utils import AverageMeter
 
 
 class Coach:
