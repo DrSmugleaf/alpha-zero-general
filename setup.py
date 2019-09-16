@@ -1,7 +1,8 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='alpha-zero-general',
-    version='1.0',
-    install_requires=['numpy', 'ipython', 'progress']
+    version='1.0.0',
+    url='https://github.com/DrSmugleaf/alpha-zero-general',
+    packages=setuptools.find_packages()
 )
